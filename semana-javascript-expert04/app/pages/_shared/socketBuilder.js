@@ -1,6 +1,5 @@
 import { constants } from "./constants";
 
-constants
 export default class SocketBuilder{
   constructor({ socketUrl, namespace }){
     this.socketUrl = `${socketUrl}/${namespace}`;

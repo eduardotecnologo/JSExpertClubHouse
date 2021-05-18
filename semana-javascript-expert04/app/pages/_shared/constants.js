@@ -1,6 +1,6 @@
 export const constants = {
-  socketUrl: 'https://localhost',
-  socketNamespace:{
+  socketUrl: 'http://localhost:3000',
+  socketNamespaces:{
     room: 'room',
     lobby: 'lobby'
 },
